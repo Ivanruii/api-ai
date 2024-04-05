@@ -8,8 +8,7 @@ def read_root():
     return {"Hello": "World"}
 
 origins = [
-    "http://localhost.tiangolo.com",
-    "https://localhost.tiangolo.com",
+    "http://localhost",
     "http://localhost:5500",
     "http://localhost:8080",
 ]
