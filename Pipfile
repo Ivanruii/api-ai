@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
+transformers = "*"
+torch = "*"
+scipy = "*"
+sentence-transformers = "*"
+matplotlib = "*"
 
 [dev-packages]
 
@@ -13,4 +18,4 @@ uvicorn = {extras = ["standard"], version = "*"}
 python_version = "3.12"
 
 [scripts]
-start = "uvicorn main:app --reload"
+start = "uvicorn app.main:app --reload"
